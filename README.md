@@ -1,14 +1,16 @@
-# Trial for write Readme using Markdown
+<h1 align="center"> &#x2705; Centered Heading</h1>
 
-## this is also inlude
+# Trial for write Readme using Markdown 🎯
+
+## this is also inlude :+1:
 
 some *unorder* list like this one:
 - this is one
 - this is two
 - and this is three
-  
+
 ---
-this one above is for line along the page
+~this one above is for line along the page~
 
 i **also** wanto to make second list like this one:
 1. this is list one
