@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62,5%;
+  font-family: 'Inter';
+}
+
 body {
   background-color: rgb(236, 236, 236);
 }
@@ -37,7 +42,7 @@ header {
 .toggle-button {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 0, 170);
+  background-color: #FF90E8;
   border-radius: 50%;
   margin-left: 5px;
 }
@@ -53,20 +58,29 @@ nav li {
 }
 
 .banner {
+  margin: 70px 50px;
   display: flex;
-  background-color: aqua;
   height: 300px;
 }
 
 .about-me {
   width: 500px;
-  background-color: aquamarine;
+}
+
+.about-me h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 .button {
-  height: 30px;
-  width: 100px;
-  background-color: rgb(255, 0, 170);
+  height: 40px;
+  width: 150px;
+  background-color: #FF90E8;
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -76,6 +90,7 @@ nav li {
 .button a {
   color: black;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .profile-container {
@@ -84,4 +99,9 @@ nav li {
 
 .profile-container img {
   width: 300px;
+  margin-left: 70px;
+}
+
+.my-project {
+  text-align: center;
 }
