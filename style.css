@@ -51,3 +51,37 @@ nav li {
   list-style: none;
   padding: 0 20px;
 }
+
+.banner {
+  display: flex;
+  background-color: aqua;
+  height: 300px;
+}
+
+.about-me {
+  width: 500px;
+  background-color: aquamarine;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 0, 170);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-container {
+  overflow: hidden;
+}
+
+.profile-container img {
+  width: 300px;
+}
