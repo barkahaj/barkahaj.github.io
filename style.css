@@ -212,13 +212,20 @@ nav li {
 .testimonial {
   width: 80%;
   margin: 5rem auto;
-  height: 350px;
   background-color: white;
   text-align: center;
+  border: solid 1px black;
 }
 
 .testimonial-quote {
   font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-slider {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3rem;
 }
 
 .testimonial-message {
@@ -227,8 +234,11 @@ nav li {
 }
 
 .testimonial-profile {
-  width: 300px;
   margin: 2rem auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonial-name {
