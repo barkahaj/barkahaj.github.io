@@ -245,3 +245,56 @@ nav li {
   text-align: start;
 }
 
+/* contact me section */
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-me h2 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.contact-me-button {
+  background-color: #FF90E8;
+  width: 20rem;
+  height: 4rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  align-content: center;
+}
+
+.contact-me a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+/* Footer Section */
+
+footer {
+  margin: 3rem 0 1rem 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+footer li {
+  list-style: none;
+  font-size: 1rem;
+  padding: 1rem;
+ 
+}
+
+footer a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+
+
