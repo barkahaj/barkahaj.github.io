@@ -1,0 +1,25 @@
+
+.contact-me-page {
+    padding: 2rem 5rem;
+    line-height: 2rem;
+}
+
+.contact-me-page h1 {
+    padding-bottom: 2rem;
+}
+
+.contact-form {
+    padding: 1rem 5rem;
+    line-height: 2rem;
+}
+
+.submit-form {
+    height: 2rem;
+    width: 10rem;
+    font-weight: bold;
+    background-color: #FF90E8;
+}
+
+.submit-form:hover {
+  background-color: #ff3bd8;
+}
