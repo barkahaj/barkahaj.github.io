@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(238, 238, 238);
 }
 
 /* Nav Section */
@@ -48,7 +48,6 @@ header {
   width: 30px;
   background-color: #FF90E8;
   border-radius: 50%;
-  margin-left: 5px;
 }
 
 nav ul {
@@ -162,16 +161,17 @@ nav li {
 
 .services {
   text-align: center;
-  padding: 5rem;
 }
 
 .services h2 {
   font-size: 3rem;
+  padding-top: 4rem;
 }
 
 .services-items {
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
+  max-width: 1200;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -204,3 +204,32 @@ nav li {
   font-size: 1.5rem;
   color: black;
 }
+
+/* Testimonial Section */
+
+.testimonial {
+  width: 80%;
+  margin: 5rem auto;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+}
+
+.testimonial-quote {
+  font-size: 5rem;
+}
+
+.testimonial-message {
+  font-size: 2rem;
+  padding: 0 5rem;
+}
+
+.testimonial-profile {
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.testimonial-name {
+  text-align: start;
+}
+
