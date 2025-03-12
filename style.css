@@ -21,6 +21,7 @@ header {
   background-color: white;
   padding: 20px;
   width: 100%;
+  height: 5rem;
 }
 
 .toggle-container {
@@ -32,7 +33,7 @@ header {
 
 .toggle {
   background-color: rgb(255, 255, 255);
-  width: 60px;
+  width: 70px;
   height: 35px;
   border: solid black 1px;
   border-radius: 50px;
@@ -58,6 +59,7 @@ nav ul {
 nav li {
   list-style: none;
   padding: 0 20px;
+  font-size: 1.5rem;
 }
 
 /* Banner section */
@@ -154,4 +156,51 @@ nav li {
   font-size: 1.4rem;
   padding: 15px;
   border: solid 1px black;
+}
+
+/* services section */
+
+.services {
+  text-align: center;
+  padding: 5rem;
+}
+
+.services h2 {
+  font-size: 3rem;
+}
+
+.services-items {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px black;
+  background-color: white;
+  height: 150px;
+}
+
+.services-items h3 {
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
+.services-items p {
+  text-align:start;
+  font-size: 1.4rem;
+}
+
+.services-button {
+  background-color: #FF90E8;
+  width: 220px;
+  border: solid 1px black;
+  align-content: center;
+  border-radius: 50px;
+  height: 70px;
+}
+
+.services-button a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
 }
