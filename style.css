@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: solid red 1px;
 }
 
 html {
@@ -86,6 +87,26 @@ nav a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+
+  header {
+    width: 100%;
+  }
+
+  header .logo {
+    padding: 10px;;
+  }
+
+  .toggle-lining {
+    width: 90px;
+  }
+
+  nav li {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+}
+
 /* Banner section */
 
 .banner {
@@ -151,6 +172,39 @@ nav a {
   overflow: hidden;
   height: 30rem;
   border-radius: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .banner {
+    overflow: hidden;
+  }
+
+  .about-me {
+    width: 10rem;
+    padding: 0 4rem;
+  }
+
+  .about-me h1 {
+    font-size: 2rem;
+  }
+
+  .about-me p {
+    font-size: 1.5rem;
+  }
+
+  .banner-img-container {
+    width: 8rem;
+  }
+
+  .banner-img-frame {
+    width: 21 rem;
+  }
+
+  .banner-img-container img {
+    width: 23rem;
+  }
+
 }
 
 /* My Project Section */
@@ -240,11 +294,17 @@ nav a {
   color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .services-items {
+    width: 750px;
+  }
+}
+
 /* Testimonial Section */
 
 .testimonial {
   width: 80%;
-  margin: 5rem auto;
+  margin: 2rem auto;
   background-color: white;
   text-align: center;
   border: solid 1px black;
@@ -253,12 +313,13 @@ nav a {
 
 .testimonial-quote {
   font-size: 5rem;
+  background-color: #FF90E8;
 }
 
 .testimonial-slider {
   display: flex;
   justify-content: space-around;
-  padding: 0 3rem;
+  padding: 0 2rem;
   align-items: center;
 }
 
@@ -269,6 +330,21 @@ nav a {
 .testimonial-message {
   font-size: 2rem;
   padding: 0 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial {
+    width: 750px;
+  }
+
+  .testimonial-message {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-button img {
+    width: 4rem;
+  }
+
 }
 
 /* contact me section */
