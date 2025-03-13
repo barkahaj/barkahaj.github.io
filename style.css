@@ -86,7 +86,8 @@ nav a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
   header {
     width: 100%;
@@ -173,7 +174,8 @@ nav a {
   border-radius: 4rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
   .banner {
     overflow: hidden;
@@ -241,6 +243,14 @@ nav a {
   border-color: black;
 }
 
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .my-project-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
 /* services section */
 
 .services {
@@ -293,7 +303,8 @@ nav a {
   color: black;
 }
 
-@media only screen and (max-width: 768px) {
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .services-items {
     width: 750px;
   }
@@ -330,7 +341,8 @@ nav a {
   padding: 0 5rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .testimonial {
     width: 750px;
   }
