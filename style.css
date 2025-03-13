@@ -31,36 +31,41 @@ header .logo{
   align-content: center;
 }
 
-.toggle-container {
+.toggle-lining {
   width: 300px;
   display: flex;
   justify-content: end;
   align-items: center;
 }
 
-.toggle {
+.toggle-container {
   background-color: rgb(255, 255, 255);
   width: 80px;
   height: 45px;
   border: solid black 1px;
   border-radius: 50px;
   display: flex;
-  justify-content: end;
   align-items: center;
   padding: 5px;
+  position: relative;
 }
 
 .toggle-button {
   height: 35px;
   width: 35px;
-  background-color: #FF90E8;
+  background-color: black;
   border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  transition-duration: 0.5s;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   height: 5rem;
+  
 }
 
 nav li {

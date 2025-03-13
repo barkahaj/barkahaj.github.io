@@ -6,18 +6,23 @@
     <title>Barkah Portofolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="darkmode.js" defer></script>
   </head>
 
 <body>
   <header>
     <div class="logo"><img src="./img/BARKAH AJI logo.png" alt="logo"></div>
-    <div class="toggle-container"><div class="toggle"><div class="toggle-button"></div></div></div>
+    <div class="toggle-lining">
+      <div class="toggle-container" id="toggle-container">
+        <div class="toggle-button" id="toggle-button"></div>
+      </div>
+    </div>
     <nav>
       <ul>
-        <li><a href="">About me</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="contact-me.html">Contact</a></li>
+        <li class="nav-list"><a href="">About me</a></li>
+        <li class="nav-list"><a href="">Projects</a></li>
+        <li class="nav-list"><a href="">Services</a></li>
+        <li class="nav-list"><a href="contact-me.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -29,8 +34,8 @@
     <section class="banner">
 
       <div class="about-me">
-        <h1>About me</h1>
-        <p>Hi, I'm Barkah Aji, a passionate Full-Stack Developer dedicated to building modern, functional, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and continuously expand my expertise in both front-end and back-end development.</p>
+        <h1 id="about-me-title">About me</h1>
+        <p id="about-me-description">Hi, I'm Barkah Aji, a passionate Full-Stack Developer dedicated to building modern, functional, and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and continuously expand my expertise in both front-end and back-end development.</p>
         <div class="about-me-button"><a href="">learn more</a></div>
       </div>
 
@@ -131,7 +136,7 @@
     <!-- Contact Me Section -->
 
     <section class="contact-me">
-      <h2>Let's Collaborate!</h2>
+      <h2 id="lets-collaborate">Let's Collaborate!</h2>
       <div class="contact-me-button"><a href="">Contact Me</a></div>
 
     </section>
@@ -140,9 +145,9 @@
 
     <footer>
       <ul>
-        <li><a href="">About me</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Services</a></li>
+        <li><a class="footer-menu" href="">About me</a></li>
+        <li><a class="footer-menu" href="">Projects</a></li>
+        <li><a class="footer-menu" href="">Services</a></li>
       </ul>
     </footer>
 
