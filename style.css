@@ -205,11 +205,12 @@ nav a {
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
   .banner {
+    width: 100%;
     overflow: hidden;
   }
 
   .about-me {
-    width: 10rem;
+    width: auto;
     padding: 0 4rem;
   }
 
