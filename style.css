@@ -107,6 +107,33 @@ nav a {
   }
 }
 
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+
+  header .logo {
+    display: none;
+  }
+
+  nav li {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .toggle-lining {
+    padding: 0rem;
+    margin: 0;
+    height: auto;
+    width: auto;
+  }
+
+  .toggle-container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+}
+
+
 /* Banner section */
 
 .banner {
@@ -205,7 +232,48 @@ nav a {
   .banner-img-container img {
     width: 23rem;
   }
+}
 
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+  .banner {
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    height: auto;
+  }
+
+  .about-me h1 {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-me p {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: justify;
+    margin: 0;
+  }
+
+  .about-me-button {
+    width: 10rem;
+    margin: 0 auto; 
+    padding: 0;
+    height: 3rem;
+  }
+
+  .about-me-button a {
+    font-size: 1.5rem;
+  }
+
+  .banner-img-container {
+    display: none;
+  }
+
+  .banner-img-container img {
+   display: none;
+  }
 }
 
 /* My Project Section */
@@ -250,6 +318,28 @@ nav a {
     margin: 0 auto;
   }
 }
+
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+  .banner {
+    display: block;
+  }
+
+  .my-project h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  .my-project p {
+    font-size: 1rem;
+  }
+
+  .my-project img {
+    width: 100%;
+  }
+}
+
 
 /* services section */
 
@@ -310,6 +400,44 @@ nav a {
   }
 }
 
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+
+  .services {
+    width: 100%;
+  }
+
+  .services h2 {
+    font-size: 2rem;
+  }
+
+  .services-items {
+    padding: 20px;
+    height: auto;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .services h3 {
+    font-size: 1.2rem;
+  }
+  .services p {
+    font-size: 0.8rem;
+  }
+
+  .services-button {
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: 3rem;
+  }
+
+  .services-button a {
+    font-size: 1rem;
+  }
+}
+
 /* Testimonial Section */
 
 .testimonial {
@@ -344,17 +472,59 @@ nav a {
 /* for tablet */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .testimonial {
-    width: 750px;
+    width: 90%;
+  }
+
+  .testimonial-quote {
+    font-size: 2rem;
   }
 
   .testimonial-message {
     font-size: 1.5rem;
+    padding: 1rem;
   }
 
   .testimonial-button img {
     width: 4rem;
   }
 
+  .testimonial-slider {
+    padding: 0;
+  }
+}
+
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+  
+  .testimonial {
+    width: 90%;
+  }
+
+  .testimonial-quote {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonial-slider {
+    display: block;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .testimonial-message {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .testimonial-button {
+    background-color: rgb(252, 252, 153);
+    width: auto;
+  }
+
+  .testimonial-button img {
+    width: 3rem;
+  }
 }
 
 /* contact me section */
@@ -387,6 +557,24 @@ nav a {
   color: black;
 }
 
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+  .contact-me h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-me-button {
+    width: 12rem;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .contact-me a {
+    font-size: 1.5rem;
+  }
+}
+
 /* Footer Section */
 
 footer {
@@ -410,6 +598,13 @@ footer a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+}
+
+/* smartphone screen */
+@media only screen and (max-width: 480px) {
+  footer a {
+    font-size: 1rem;
+  }
 }
 
 
