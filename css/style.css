@@ -291,6 +291,7 @@ header li {
 
 .about-us-text p {
     padding-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 .cta-button {
@@ -349,7 +350,8 @@ header li {
 
 .cta-section-text p {
     margin-bottom: 1.5rem;
-    padding-right: 1rem;
+    padding-right: 4rem;
+    font-size: 1.1rem;
 }
 
 /* Footer*/
