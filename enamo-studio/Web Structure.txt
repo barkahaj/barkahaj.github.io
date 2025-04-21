@@ -1,0 +1,38 @@
+EnamoStudio/
+│ 
+├── index.html                              ← Home Page
+├── service-product-photo-editing.html
+├── service-image-generator.html
+├── service-customer-experiences.html
+├── service-employee-experiences.html
+├── service-ui-ux-design.html
+├── service-digital-transformation.html
+├── company.html 
+├── blog.html
+├── blog-category.html
+├── blog-page.html
+│ 
+├── css/
+│   ├── style.css                            ← Global Style
+│   ├── home.css
+│   ├── service-product-photo-editing.css
+│   ├── service-image-generator.css
+│   ├── service-customer-experiences.css
+│   ├── service-employee-experiences.css
+│   ├── service-ui-ux-design.css
+│   ├── service-digital-transformation.css
+│   ├── company.css
+│   ├── blog.css
+│   ├── blog-category.css
+│   └── blog-page.css
+│ 
+├── js/
+│   └── main.js                             ← Main JavaScript
+│
+├── img/                                    ← All image files
+│
+└── fonts/                                  ← All font files
+
+
+
+   
