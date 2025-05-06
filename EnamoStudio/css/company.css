@@ -1,0 +1,195 @@
+.title-spacing {
+    width: 55rem;
+}
+
+.hero-section-title h1{
+    letter-spacing: -0.2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 121rem;
+  margin: 0 auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.grid-item h2 {
+    margin-bottom: 1rem;
+}
+
+.grid-item h4 {
+    margin: 1rem 0;
+}
+
+.grid-item.big {
+  grid-row: span 2;
+}
+
+.our-team-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 55rem;
+}
+
+.flex-container {
+    gap: 5rem;
+}
+
+.vertical-center {
+    align-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.point-img {
+    width: 53rem;
+    height: auto;
+}
+
+.impact-headline {
+    text-align: center;
+}
+
+.flex-container {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 33%;
+    text-align: center;
+    padding: 3rem;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.label {
+    display: flex;
+    background-color: #E7F6EC;
+    height: 2.5rem;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 0.5rem;
+}
+
+.label img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.label p {
+    color: #036B26;
+}
+
+.bigger-btn {
+    padding: 1.5rem 2rem;
+}
+
+.title-section {
+    width: 62rem;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.grid-client {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 121rem;
+    margin: 0 auto;
+  }
+  
+.item-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color:#E4E7EC;
+  }
+
+  /* Blog Section */
+
+.blog-container {
+    display: flex;
+    margin: 0 auto;
+    width: 121rem;
+    gap: 3rem;
+  }
+
+.box {
+    width: 50%;
+}
+
+.box-1 {
+    width: 45%;
+}
+
+.box-2 {
+    width: 55%;
+}
+
+.article {
+    display: flex;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #E4E7EC;
+}
+
+.no-buttom-border {
+    border-bottom: none;
+}
+
+  .article-tumbnail {
+    margin-left: 3rem;
+  }
+
+  .article-label {
+    background-color: #F5F8FF;
+    display: inline-block;
+    width: auto;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .article-label p {
+    color: #007084;
+  }
+  
+  .author {
+    display: flex;
+  }
+
+  .author-details {
+    margin-left: 1.5rem;
+  }
+
+  .author-details-name {
+    color: black;
+    font-weight: 500;
+  }
+
+  .article-tumbnail h4 {
+    font-size: 1.9rem;
+  }
+  

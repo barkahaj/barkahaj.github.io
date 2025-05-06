@@ -1,0 +1,137 @@
+.title-spacing {
+    width: 55rem;
+  }
+  
+  .tag {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .tag-label {
+    background-color: #F0F2F5;
+    width: auto;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    color: #141414;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .tag-label:hover {
+    background-color: #acacac;
+  }
+  
+  /* Blog Header Section */
+  
+  .blog-container {
+    display: flex;
+    margin: 0 auto;
+    width: 121rem;
+    gap: 3rem;
+  }
+  
+  
+  .box {
+      width: 50%;
+  }
+  
+    .article {
+      display: flex;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid grey;
+    }
+  
+    .article-tumbnail {
+      margin-left: 3rem;
+    }
+  
+    .article-label {
+      background-color: #F5F8FF;
+      display: inline-block;
+      width: auto;
+      border-radius: 1.5rem;
+      text-align: center;
+      padding: 0 1rem;
+      color: #007084;
+    }
+    
+    .author {
+      display: flex;
+    }
+  
+    .author-details {
+      margin-left: 1.5rem;
+    }
+  
+    .author-details-name {
+      color: black;
+      font-weight: 500;
+    }
+  
+    .article-tumbnail h4 {
+      font-size: 1.9rem;
+    }
+  
+    .space-between {
+      justify-content: space-between;
+    }
+  
+    .container {
+      width: 121rem;
+      margin: 0 auto;
+    }
+  
+    .paragraph-box {
+      width: 56rem;
+    }
+  
+    .article-card {
+      width: 39rem;
+    }
+  
+    .btn-white {
+      display: flex;
+      background-color: #FFFFFF;
+      border: #acacac 1px solid;
+      height: 4rem;
+      gap: 1rem;
+      align-items: center;
+      border-radius: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .btn-white p {
+      color: black;
+    }
+  
+    .btn:hover {
+      cursor: pointer;
+      color: #dbdbdb;
+    }
+  
+    .article-section-title {
+      font-size: 3rem;
+    }
+  
+    /* More Post Section */
+  
+  .more-post-container {
+    display: flex;
+    width: 121rem;
+    margin: 0 auto;
+    gap: 5rem;
+  }
+  
+  .more-post-card {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border-bottom: #acacac 1px solid;
+    margin-bottom: 2rem;
+  }
+  
+  .no-mb {
+    border-bottom: none;
+  }

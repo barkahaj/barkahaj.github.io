@@ -1,0 +1,123 @@
+
+p {
+    font-size: 1.8rem;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.breadcrumb-arrow {
+    width: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.breadcrumb-path {
+    color: #667185;
+}
+
+.article-title {
+    font-size: 5.6rem;
+    font-weight: 500;
+    line-height: 1;
+    width: 88rem;
+}
+
+
+/* sidebar section */
+
+.side-bar {
+    width: 30%;
+}
+
+.outline {
+    padding: 1rem;
+    border-left: 2px solid #D0D5DD;
+}
+
+.active-outline {
+    border-left: 2px solid #1995AD;
+}
+
+.subscribe-box {
+    padding: 2rem;
+}
+
+.subs-btn-lining {
+    display: flex;
+    justify-content: end;
+}
+
+.subs-button {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    align-content: center;
+}
+
+/* Main article */
+
+.main-article {
+    width: 70%;
+}
+
+.border-bottom {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #E4E7EC;
+}
+
+.highlight-article {
+    display: flex;
+    padding: 5rem 0;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+
+.highlight-text {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4rem;
+}
+
+.cta-text {
+    width: 70%;
+}
+
+.tag-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.tag-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Author Card */
+
+.author-card {
+    width: 66rem;
+    padding: 4rem;
+}
+
+.link-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link-label p {
+    font-weight: 700;
+}

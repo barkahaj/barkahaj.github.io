@@ -1,0 +1,36 @@
+.title-spacing {
+    width: 90rem;
+}
+
+.hero-section-title h1{
+    letter-spacing: -0.2rem;
+}
+
+.toggle-img-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+    .title-spacing {
+        width: 90%;
+        text-align: start;
+    }
+
+    .hero-img-mobile {
+        width: 40rem;
+    }
+
+    .toggle-img-pc {
+        display: none;
+    }
+
+    .toggle-img-mobile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cta-box {
+        width: 85%;
+    }
+
+}

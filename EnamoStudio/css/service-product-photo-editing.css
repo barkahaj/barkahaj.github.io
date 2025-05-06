@@ -1,0 +1,84 @@
+.title-spacing {
+    width: 70rem;
+}
+
+.features-link {
+    display: flex;
+}
+
+.features-link img {
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: auto;
+}
+
+.hero-section-title h1{
+    letter-spacing: -0.2rem;
+}
+
+.box-1 {
+    width: 60%;
+}
+
+.box-2 {
+    width: 40%;
+}
+
+.toggle-img-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+
+    .title-spacing {
+        width: 90%;
+        text-align: start;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .img-cover-mobile {
+       width: 40rem;
+       height: auto;
+    }
+
+    .box-1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box-2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card-img-mobile {
+        width: auto;
+        height: 25rem;
+    }
+
+    .mobile-mb-1 {
+        margin-bottom: 2rem;
+    }
+
+    .cta-box {
+        width: 90%;
+    }
+
+    .cta-img-container {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .toggle-img-pc {
+        display: none;
+    }
+
+    .toggle-img-mobile {
+        display: block;
+        margin: 0 auto;
+    }
+}

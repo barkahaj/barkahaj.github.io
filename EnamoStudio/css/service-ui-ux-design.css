@@ -1,0 +1,139 @@
+.title-spacing {
+    width: 100rem;
+}
+
+.hero-section-title h1{
+    letter-spacing: -0.2rem;
+}
+
+.full-container {
+    display: flex;
+    gap: 4rem;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+.full-container-end {
+    display: flex;
+    gap: 4rem;
+    justify-content: end;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+.box h4 {
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.box p {
+    font-size: 2rem;
+}
+
+.box-sizing {
+    width: 75rem;
+}
+
+.vertical-center {
+    align-content: center;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.point {
+    display: flex;
+    gap: 5rem;
+}
+
+.point-text h4 {
+    font-size: 2.5rem;
+}
+
+.pointer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pointer img {
+    width: 3rem;
+    height: auto;
+}
+
+.btn-arrow {
+    display: flex;
+    width: 15rem;
+}
+
+.btn-arrow img {
+    width: 3rem;
+    height: auto;
+}
+
+@media screen and (max-width: 425px) {
+    .title-spacing {
+        width: 90%;
+        text-align: start;
+    }
+
+    .title-spacing h1 {
+        width: 80%;
+    }
+
+    .full-container {
+        display: block;
+    }
+
+    .point {
+        display: block;
+    }
+
+    .full-container-end {
+        display: block;
+    }
+
+    .point-img {
+        width: 100%;
+    }
+
+    .centered-img {
+        text-align: center;
+    }
+
+    .box {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .box h2 {
+        width: 40rem;
+        font-size: 3rem;
+    }
+
+    .box h4 {
+        font-size: 2rem;
+    }
+
+    .box p {
+        font-size: 1.6rem;
+    }
+
+    .point p {
+        width: 100%;
+    }
+
+    .cta-box {
+        width: 90%;
+    }
+
+    .pointer {
+        margin: 1rem 0;
+    }
+
+    .pointer img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
