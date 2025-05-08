@@ -121,3 +121,83 @@ p {
 .link-label p {
     font-weight: 700;
 }
+
+@media screen and (max-width: 425px) {
+    
+    .article-title {
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    .mobile-hero {
+        padding: 1.5rem;
+    }
+
+    .mobile-hero-img {
+        width: 39rem;
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .side-bar {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .main-article {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    
+    .highlight-article {
+        display: block;
+    }
+
+    .mobile-highlight-img {
+        width: 38rem;
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .tag-box {
+        display: block;
+    }
+
+    .tag-flex {
+        margin-bottom: 1.5rem;
+    }
+
+    .author-card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .author-card p {
+        font-size: 1.4rem;
+    }
+
+    .cta-box {
+        display: block;
+    }
+
+    .mobile-cta-img {
+        width: 5rem;
+    }
+
+    .cta-text {
+        width: 30rem;
+    }
+
+    .mobile-cta-btn {
+        display: flex;
+        justify-content: end;
+    }
+
+    .mobile-sub-title {
+        padding-left: 2rem;
+    }
+}

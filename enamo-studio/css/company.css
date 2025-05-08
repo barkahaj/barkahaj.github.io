@@ -192,4 +192,117 @@
   .article-tumbnail h4 {
     font-size: 1.9rem;
   }
+
+  @media screen and (max-width: 425px) {
+    .title-spacing {
+      width: 90%;
+      text-align: start;
+    }
+
+    .grid-container {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .our-team-title {
+      text-align: start;
+      max-width: 90%;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .flex-container {
+      display: block;
+    }
+
+    .point-img {
+      width: 70rem;
+    }
+
+    .box-1 {
+      width: 90%;
+      overflow: hidden;
+      margin: 0 auto;
+      border-radius: 2rem;
+    }
+
+    .box-2 {
+      width: 100%;
+      padding: 2rem;
+    }
+
+    .impact-headline {
+      text-align: start;
+      padding: 2rem;
+    }
+
+    .card {
+      width: 90%;
+      margin: 1rem auto;
+    }
+
+    .bigger-btn {
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+
+    .title-section {
+      width: 90%;
+      text-align: start;
+    }
+
+    .grid-client {
+      display: block;
+      width: 90%;
+    }
+
+    .item-client {
+      margin-bottom: 1rem;
+    }
+
+    .text-center {
+      text-align: start;
+      width: 80%;
+    }
+
+    .blog-container {
+      display: block;
+      width: 100%;
+    }
+
+    .article {
+      margin-left: 1.5rem;
+    }
+
+    .article-tumbnail {
+      margin-left: 1.5rem;
+    }
+
+    .article-tumbnail h4 {
+      width: 20rem;
+    }
+
+    .author {
+      margin-left: 2rem;
+      margin-bottom: 5rem;
+      margin-top: -3rem;
+    }
+
+    .main-article-frame {
+      width: 40rem;
+      overflow: hidden;
+      padding: 2rem;
+      border-radius: 3rem;
+    }
+
+    .img-frame img {
+      width: 50rem;
+    }
+
+    .box {
+      width: 100%;
+    }
+
+  }
   

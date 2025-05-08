@@ -589,13 +589,17 @@ footer nav .we-are-hiring {
    .footer-form {
     display: grid;
     gap: 0.5rem;
-    width: 34rem;
+    width: 100%;
     margin-bottom: 4rem;
     margin-top: 2rem;
    }
 
+   .footer-form h4 {
+    font-size: 1.9rem;
+   }
+
    .form-placeholder {
-    width: 33rem;
+    width: 100%;
     margin: 0 auto;
    }
 

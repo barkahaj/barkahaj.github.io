@@ -135,3 +135,58 @@
   .no-mb {
     border-bottom: none;
   }
+
+@media screen and (max-width: 425px) {
+  .title-spacing {
+    text-align: start;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  .title-spacing p {
+    width: 35rem;
+  }
+
+  .title-spacing h5 {
+    margin-bottom: 1.5rem;
+  }
+
+  .article {
+    width: 40rem;
+    padding-left: 2rem;
+  }
+
+  .blog-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .img-mobile-frame {
+    overflow: hidden;
+    width: 95%;
+    border-radius: 2rem;
+  }
+
+  .box-header-mobile {
+    margin: 1rem;
+  }
+
+  .flex-container {
+    display: block;
+  }
+
+  .article-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .author {
+    margin-bottom: 4rem;
+  }
+
+}
