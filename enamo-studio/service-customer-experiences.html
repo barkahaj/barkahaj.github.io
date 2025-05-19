@@ -8,203 +8,227 @@
     <script src="./js/main.js" defer></script>
     <script src="./js/mobile-nav.js" defer></script>
     <script src="./js/mega-menu-mobile.js" defer></script>
+    <script src="./js/fade-animation.js" defer></script>
     <title>Customer Experiences</title>
 </head>
 <body>
 
-        <!-- Navigation  -->
+    <!-- Navigation  -->
 
-        <header class="mb-7">
+    <header class="sticky-header">
         
-            <nav class="header-pc">
-                <a href="index.html"><img src="./img/Enamo Logo.png" alt="enamo logo"></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <div class="mega-menu-link">
-                        <li id="menu-product">Product</li>
+        <nav class="header-pc">
+            <a href="index.html"><img src="./img/Enamo Logo.png" alt="enamo logo"></a>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                
+                    <div class="mega-menu-link" id="menu-product">
+                        <li>Product</li>
                         <img class="chevron" id="chevron-product" src="./img/chevron-down.png" alt="">
                     </div>
-    
-                    <div class="mega-menu-link"> 
-                        <li id="menu-services">Service</li>
-                        <img class="chevron" id="chevron-services" src="./img/chevron-down.png" alt="">
+
+                <div class="mega-menu-link" id="menu-services"> 
+                    <li>Service</li>
+                    <img class="chevron" id="chevron-services" src="./img/chevron-down.png" alt="">
+                </div>
+
+                <a href="company.html"><li>Company</li></a>
+                <a href="blog.html"><li>Blog</li></a>
+            </ul>
+            <div class="mega-menu-product mega-menu" id="mega-menu-product">
+                <div class="mega-menu-lining">
+                    <div class="mega-menu-items-lining">
+
+                        <a href="https://stocktree.io/">
+                            <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Stocktree logo.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Stocktree</p>
+                                <p>Leverage advanced generative AI to effortlessly edit product photos and create high-quality design content.</p>
+                            </div> 
+                        </div>
+                        </a>
+
+                        <a href="">
+                        <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Lexia Logo.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Lexia</p>
+                                <p>Customable AI agent to improve engagement, retention and loyalty trough enjoyable interactions.</p>
+                            </div> 
+                        </div>
+                        </a>
+
+                        <a href="https://enamostudios.com/">
+                             <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Elementsworx-icon.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Elementworx</p>
+                                <p>Your shortcut to unique, ready-to-use assets in your design tools.</p>
+                            </div> 
+                        </div>
+                        </a>
+                    
                     </div>
-    
+
+                    <div class="mega-menu-article">
+                        <img src="./img/news img dummy.png" alt="">
+                        <h4>News Title</h4>
+                        <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
+                        <div class="mega-menu-learn-more"><a href="">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mega-menu-services mega-menu" id="mega-menu-services">
+                
+                <div class="mega-menu-lining">
+                    <div class="mega-menu-items-lining">
+
+                        <a href="service-product-photo-editing.html">
+                        <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Product Photo Editing Icon.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Product Photo Editing</p>
+                                <p>Powerful Capabilities Behind Effortless Product Photo Editing</p>
+                            </div> 
+                        </div>
+                        </a>
+                        
+                        <a href="service-image-generator.html">
+                        <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Image Generator Icon.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Image Generator</p>
+                                <p>Instantly Generate Stunning Images for Product Photos and Designs</p>
+                            </div> 
+                        </div>
+                        </a>
+                        
+                        <a href="service-customer-experiences.html">
+                        <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Customer Experience Icon.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Customer Experience</p>
+                                <p>Cultivate Customer Loyalty</p>
+                            </div> 
+                        </div>
+                        </a>
+
+                        <a href="service-employee-experiences.html">
+                             <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Employee Experience.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Employee Experience</p>
+                                <p>Build Employee Engagement</p>
+                            </div> 
+                        </div>
+                        </a>
+
+                        <a href="service-ui-ux-design.html">
+                             <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/UI UX Design.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">UI UX Design</p>
+                                <p>Enhance Conversions and Build Loyalty with User-Centric UI UX Design </p>
+                            </div> 
+                        </div>
+                        </a>
+
+                        <a href="service-digital-transformation.html">
+                             <div class="mega-menu-items">
+                            <div class="mega-menu-img">
+                                <img src="./img/Digital Transformation Icon.png" alt="">
+                            </div>
+                            <div class="mega-menu-text">
+                                <p class="mega-menu-title">Digital Transformation</p>
+                                <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
+                            </div> 
+                        </div>
+                        </a>
+            
+                    </div>
+
+                    <div class="mega-menu-article">
+                        <img src="./img/news img dummy.png" alt="">
+                        <h4>News Title</h4>
+                        <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
+                        <div class="mega-menu-learn-more"><a href="">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation -->
+
+        <nav class="header-mobile">
+            <div class="header-mobile-top">
+                <a href="index.html"><img src="./img/Enamo Logo.png" alt="enamo logo"></a>
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <img id="mobile-menu-icon" src="./img/humberger-menu-icon.png" alt="">
+                </div>
+            </div>
+            <div>
+                <ul class="header-mobile-nav" id="header-mobile-nav">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <div class="mega-menu-mobile-dropdown" id="mobile-dropdown">
+                        <li>Product</li>
+                        <img id="chevron-menu-mobile" src="./img/chevron-down-mobile.png" alt="">
+                    </div> 
+
+                    <div class="mega-menu-mobile" id="mega-menu-dropdown">
+                        <li><a href="https://stocktree.io/"><img src="./img/Stocktree logo.png" alt="">Stocktree</a></li>
+                        <li><a href=""><img src="./img/lexia-logo-color.png" alt="">Lexia</a></li>
+                        <li><a href="https://enamostudios.com/"><img src="./img/Elementsworx-icon-little.png" alt="">Elementworx</a></li>
+                    </div>
+                    
+                    <div class="mega-menu-mobile-dropdown" id="mobile-dropdown-service">
+                        <li>Service</li>
+                        <img id="chevron-menu-mobile-service" src="./img/chevron-down-mobile.png" alt="">
+                    </div>
+                    <div class="mega-menu-mobile" id="mega-menu-dropdown-service">
+                        <li><a href="service-product-photo-editing.html"><img src="./img/Product Photo Editing Icon.png" alt="">Product Photo Editing</a></li>
+                        <li><a href="service-image-generator.html"><img src="./img/Image Generator Icon.png" alt="">Image Generator</a></li>
+                        <li><a href="service-customer-experiences.html"><img src="./img/Customer Experience Icon.png" alt="">Customer Experience</a></li>
+                        <li><a href="service-employee-experiences.html"><img src="./img/Employee Experience.png" alt="">Employee Experience</a></li>
+                        <li><a href="service-ui-ux-design.html"><img src="./img/UI UX Design.png" alt="">UI UX Design</a></li>
+                        <li><a href="service-digital-transformation.html"><img src="./img/Digital Transformation Icon.png" alt="">Digital Transformation</a></li>
+                    </div>
+                   
                     <li><a href="company.html">Company</a></li>
                     <li><a href="blog.html">Blog</a></li>
                 </ul>
-                <div class="mega-menu-product mega-menu" id="mega-menu-product">
-                    <div class="mega-menu-lining">
-                        <div class="mega-menu-items-lining">
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Stocktree logo.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="https://stocktree.io/"><h4>Stocktree</h4></a>
-                                    <p>Leverage advanced generative AI to effortlessly edit product photos and create high-quality design content.</p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Lexia Logo.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <h4>Lexia</h4>
-                                    <p>Customable AI agent to improve engagement, retention and loyalty trough enjoyable interactions.</p>
-                                </div> 
-                            </div>
+            </div>
+        </nav>
 
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Elementsworx-icon.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="https://enamostudios.com/"><h4>Elementworx</h4></a>
-                                    <p>Your shortcut to unique, ready-to-use assets in your design tools.</p>
-                                </div> 
-                            </div>
-                        </div>
+    </header>
     
-                        <div class="mega-menu-article">
-                            <img src="./img/news img dummy.png" alt="">
-                            <h4>News Title</h4>
-                            <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
-                            <div class="mega-menu-learn-more"><a href="">Learn More</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mega-menu-services mega-menu" id="mega-menu-services">
-                    
-                    <div class="mega-menu-lining">
-                        <div class="mega-menu-items-lining">
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Product Photo Editing Icon.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-product-photo-editing.html"><h4>Product Photo Editing</h4></a>
-                                    <p>Powerful Capabilities Behind Effortless Product Photo Editing</p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Image Generator Icon.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-image-generator.html"><h4>Image Generator</h4></a>
-                                    <p>Instantly Generate Stunning Images for Product Photos and Designs</p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Customer Experience Icon.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-customer-experiences.html"><h4>Customer Experience</h4></a>
-                                    <p>Cultivate Customer Loyalty</p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Employee Experience.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-employee-experiences.html"><h4>Employee Experience</h4></a>
-                                    <p>Build Employee Engagement</p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/UI UX Design.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-ui-ux-design.html"><h4>UI UX Design</h4></a>
-                                    <p>Enhance Conversions and Build Loyalty with User-Centric UI UX Design </p>
-                                </div> 
-                            </div>
-    
-                            <div class="mega-menu-items">
-                                <div class="mega-menu-img">
-                                    <img src="./img/Digital Transformation Icon.png" alt="">
-                                </div>
-                                <div class="mega-menu-text">
-                                    <a href="service-digital-transformation.html"><h4>Digital Transformation</h4></a>
-                                    <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
-                                </div> 
-                            </div>
-                        </div>
-    
-                        <div class="mega-menu-article">
-                            <img src="./img/news img dummy.png" alt="">
-                            <h4>News Title</h4>
-                            <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
-                            <div class="mega-menu-learn-more"><a href="">Learn More</a></div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-    
-            <!-- Mobile Navigation -->
-    
-            <nav class="header-mobile">
-                <div class="header-mobile-top">
-                    <a href="index.html"><img src="./img/Enamo Logo.png" alt="enamo logo"></a>
-                    <div class="mobile-menu-toggle" id="mobile-menu-toggle">
-                        <img id="mobile-menu-icon" src="./img/humberger-menu-icon.png" alt="">
-                    </div>
-                </div>
-                <div>
-                    <ul class="header-mobile-nav" id="header-mobile-nav">
-                        <li><a href="index.html">Home</a></li>
-                        
-                        <div class="mega-menu-mobile-dropdown" id="mobile-dropdown">
-                            <li>Product</li>
-                            <img id="chevron-menu-mobile" src="./img/chevron-down-mobile.png" alt="">
-                        </div> 
-    
-                        <div class="mega-menu-mobile" id="mega-menu-dropdown">
-                            <li><a href="https://stocktree.io/"><img src="./img/Stocktree logo.png" alt="">Stocktree</a></li>
-                            <li><a href=""><img src="./img/lexia-logo-color.png" alt="">Lexia</a></li>
-                            <li><a href="https://enamostudios.com/"><img src="./img/Elementsworx-icon-little.png" alt="">Elementworx</a></li>
-                        </div>
-                        
-                        <div class="mega-menu-mobile-dropdown" id="mobile-dropdown-service">
-                            <li>Service</li>
-                            <img id="chevron-menu-mobile-service" src="./img/chevron-down-mobile.png" alt="">
-                        </div>
-                        <div class="mega-menu-mobile" id="mega-menu-dropdown-service">
-                            <li><a href="service-product-photo-editing.html"><img src="./img/Product Photo Editing Icon.png" alt="">Product Photo Editing</a></li>
-                            <li><a href="service-image-generator.html"><img src="./img/Image Generator Icon.png" alt="">Image Generator</a></li>
-                            <li><a href="service-customer-experiences.html"><img src="./img/Customer Experience Icon.png" alt="">Customer Experience</a></li>
-                            <li><a href="service-employee-experiences.html"><img src="./img/Employee Experience.png" alt="">Employee Experience</a></li>
-                            <li><a href="service-ui-ux-design.html"><img src="./img/UI UX Design.png" alt="">UI UX Design</a></li>
-                            <li><a href="service-digital-transformation.html"><img src="./img/Digital Transformation Icon.png" alt="">Digital Transformation</a></li>
-                        </div>
-                       
-                        <li><a href="company.html">Company</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-            </nav>
-    
-        </header>
-
     <!-- Hero Section -->
 
     <div class="hero-section mb-5">
-        <div class="hero-section-title title-spacing">
+        <div class="hero-section-title title-spacing animate-to-bottom">
             <p class="sub-title mb-1">CUSTOMER EXPERIENCES</p>
             <h1 class="mb-2">Cultivate Customer Loyalty</h1>
             <div class="btn mb-5 pc-version"><a class="btn-label" href="">Start Build Agent!</a></div>
             <p class="mobile-version mb-5">Create a comfortable experience for your audience from the very first interaction to lifelong loyalty</p>
         </div>
-        <div class="center">
+        <div class="center animate-to-top">
             <img class="pc-version" src="./img/customer-experiences-page-main-banner.png" alt="">
             <img class="mobile-version hero-mobile-img" src="./img/customer-experiences-page-main-banner-mobile.png" alt="">
         </div>
@@ -214,14 +238,14 @@
 
     <div class="flex-container">
 
-        <div class="box vertical-center arrow-bg section-title-mobile">
+        <div class="box vertical-center arrow-bg section-title-mobile section hidden-left">
             <h2>Pre Purchase</h2>
             <div class="mb-1"></div>
             <p class="big-paragraph">Enhancing the Initial Customer Experience</p>
             <img class="mobile-version arrow-bg-mobile" src="./img/page-arrow-bg-mobile.png" alt="">
         </div>
 
-        <div class="box">
+        <div class="box section hidden-bottom">
 
             <div class="point">
                 <div class="point-number">
@@ -283,7 +307,7 @@
 
     <div class="flex-container">
 
-        <div class="box">
+        <div class="box section hidden-bottom">
 
             <div class="section-title-mobile">
                 <h2 class="mobile-version">Post Purchase</h2>
@@ -345,7 +369,7 @@
         </div>
 
 
-        <div class="box vertical-center ml-1 arrow-bg-reverse pc-version">
+        <div class="box vertical-center ml-1 arrow-bg-reverse pc-version section hidden-right">
             <h2>Post Purchase</h2>
             <div class="mb-1"></div>
             <p class="big-paragraph">Ensuring Customer Satisfication</p>
@@ -359,14 +383,14 @@
 
     <div class="flex-container">
 
-        <div class="box vertical-center arrow-bg section-title-mobile">
+        <div class="box vertical-center arrow-bg section-title-mobile section hidden-left">
             <h2>Retaining & Loyalty</h2>
             <div class="mb-1"></div>
             <p class="big-paragraph">Fostering Long-term Relationships</p>
             <img class="mobile-version arrow-bg-mobile" src="./img/page-arrow-bg-mobile.png" alt="">
         </div>
 
-        <div class="box">
+        <div class="box section hidden-bottom">
 
             <div class="point">
                 <div class="point-number">
@@ -425,7 +449,7 @@
 
     <!-- CTA Section -->
 
-    <div class="cta-box card center">
+    <div class="cta-box card center section hidden-bottom">
         <div class="mb-3"></div>
         <h3>Transform your interaction experience!</h3>
         <div class="mb-1"></div>
@@ -441,54 +465,52 @@
 
     <footer>
 
-       <div class="footer-lining mb-4">
-           <div class="footer-contact">
-               <img class="footer-contact-logo" src="./img/Enamo Logo.png" alt="">
-               <h4 class="mb-1">Innovating AI and Digital Transformation</h4>
-               <div class="footer-icon-lining">
-                   <img src="./img/icon map.png" alt="">
-                   <p>Yogyakarta, Indonesia</p>
-               </div>
-               <div class="footer-icon-lining mb-2">
-                   <img src="./img/icon email.png" alt="">
-                   <p>pr@enamo.com</p>
-               </div>
-   
-               <nav>
-                   <ul>
-                       <li><a href="#hero-section">Product</a></li>
-                       <li><a href="#our-work-section">Service</a></li>
-                       <li><a href="company.html">Company</a></li>
-                       <li><a href="blog.html">Blog</a></li>
-                       <li><a href="https://www.linkedin.com/company/enamo/">Careers</a></li>
-                       <p class="we-are-hiring">We're Hiring!</p>
-                   </ul>
-               </nav>
-           </div>
-   
-           <div class="footer-form">
-               <h4 class="mb-2">Get the latest updates about Enamo's new features and product updates</h4>
-               
-               <input class="form-placeholder" type="text" placeholder="Enter Email address">
-   
-               <div class="btn"><a class="btn-label" href="">Subscribe</a></div>
-           </div>
-       </div>
+        <div class="footer-lining mb-4">
+            <div class="footer-contact">
+                <img class="footer-contact-logo" src="./img/Enamo Logo.png" alt="">
+                <h4 class="mb-1">Innovating AI and Digital Transformation</h4>
+                <div class="footer-icon-lining">
+                    <p>Yogyakarta, Indonesia</p>
+                </div>
+                <div class="footer-icon-lining mb-2">
+                    <p>pr@enamo.com</p>
+                </div>
+    
+                <nav>
+                    <ul>
+                        <li><a href="#hero-section">Product</a></li>
+                        <li><a href="#our-work-section">Service</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="https://www.linkedin.com/company/enamo/">Careers</a></li>
+                        <p class="we-are-hiring">We're Hiring!</p>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="footer-form">
+                <h4 class="mb-2">Get the latest updates about Enamo's new features and product updates</h4>
+                
+                <input class="form-placeholder" type="text" placeholder="Enter Email address">
+    
+                <div class="btn"><a class="btn-label" href="">Subscribe</a></div>
+            </div>
+        </div>
 
-       <div class="footer-bottom">
-           <div class="social-media-footer">
-               <a href=""><img src="./img/Social Media Icon FB.png" alt=""></a>
-               <a href=""><img src="./img/Social Media Icon Twitter.png" alt=""></a>
-               <a href=""><img src="./img/Social Media icon IG.png" alt=""></a>
-               <a href="https://www.linkedin.com/company/enamo/"><img src="./img/Social Media icon Linkedin.png" alt=""></a>
-           </div>
+        <div class="footer-bottom">
+            <div class="social-media-footer">
+                <a href=""><img src="./img/Social Media Icon FB.png" alt=""></a>
+                <a href=""><img src="./img/Social Media Icon Twitter.png" alt=""></a>
+                <a href=""><img src="./img/Social Media icon IG.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/enamo/"><img src="./img/Social Media icon Linkedin.png" alt=""></a>
+            </div>
 
-           <div class="copyright">
-               <p class="text-description">2024 © PT Enamo Inovasi Rekatama. All rights reserved.</p>
-           </div>
-       </div>
+            <div class="copyright">
+                <p class="text-description">2024 © PT Enamo Inovasi Rekatama. All rights reserved.</p>
+            </div>
+        </div>
 
-   </footer>
+    </footer>
 
 </body>
 </html>

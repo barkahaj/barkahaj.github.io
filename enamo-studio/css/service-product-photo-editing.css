@@ -16,6 +16,10 @@
     letter-spacing: -0.2rem;
 }
 
+.flex-container {
+    gap: 1rem;
+}
+
 .box-1 {
     width: 60%;
 }

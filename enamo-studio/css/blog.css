@@ -106,10 +106,16 @@
     border-radius: 1rem;
     padding: 0 1rem;
     width: 12rem;
+    cursor: pointer;
+  }
+
+  .btn-white:hover {
+    background-color: #dbdbdb;
   }
 
   .btn-white p {
     color: black;
+    font-weight: bold;
   }
 
   .btn:hover {

@@ -8,63 +8,73 @@
     <script src="./js/main.js" defer></script>
     <script src="./js/mobile-nav.js" defer></script>
     <script src="./js/mega-menu-mobile.js" defer></script>
+    <script src="./js/fade-animation.js" defer></script>
     <title>Image Generator</title>
 </head>
 <body>
 
     <!-- Navigation  -->
 
-    <header class="mb-7">
+    <header class="sticky-header">
         
         <nav class="header-pc">
             <a href="index.html"><img src="./img/Enamo Logo.png" alt="enamo logo"></a>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <div class="mega-menu-link">
-                    <li id="menu-product">Product</li>
-                    <img class="chevron" id="chevron-product" src="./img/chevron-down.png" alt="">
-                </div>
+                <a href="index.html"><li>Home</li></a>
+                
+                    <div class="mega-menu-link" id="menu-product">
+                        <li>Product</li>
+                        <img class="chevron" id="chevron-product" src="./img/chevron-down.png" alt="">
+                    </div>
 
-                <div class="mega-menu-link"> 
-                    <li id="menu-services">Service</li>
+                <div class="mega-menu-link" id="menu-services"> 
+                    <li>Service</li>
                     <img class="chevron" id="chevron-services" src="./img/chevron-down.png" alt="">
                 </div>
 
-                <li><a href="company.html">Company</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <a href="company.html"><li>Company</li></a>
+                <a href="blog.html"><li>Blog</li></a>
             </ul>
             <div class="mega-menu-product mega-menu" id="mega-menu-product">
                 <div class="mega-menu-lining">
                     <div class="mega-menu-items-lining">
-                        <div class="mega-menu-items">
+
+                        <a href="https://stocktree.io/">
+                            <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Stocktree logo.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="https://stocktree.io/"><h4>Stocktree</h4></a>
+                                <p class="mega-menu-title">Stocktree</p>
                                 <p>Leverage advanced generative AI to effortlessly edit product photos and create high-quality design content.</p>
                             </div> 
                         </div>
+                        </a>
 
+                        <a href="">
                         <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Lexia Logo.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <h4>Lexia</h4>
+                                <p class="mega-menu-title">Lexia</p>
                                 <p>Customable AI agent to improve engagement, retention and loyalty trough enjoyable interactions.</p>
                             </div> 
                         </div>
+                        </a>
 
-                        <div class="mega-menu-items">
+                        <a href="https://enamostudios.com/">
+                             <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Elementsworx-icon.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="https://enamostudios.com/"><h4>Elementworx</h4></a>
+                                <p class="mega-menu-title">Elementworx</p>
                                 <p>Your shortcut to unique, ready-to-use assets in your design tools.</p>
                             </div> 
                         </div>
+                        </a>
+                    
                     </div>
 
                     <div class="mega-menu-article">
@@ -79,65 +89,79 @@
                 
                 <div class="mega-menu-lining">
                     <div class="mega-menu-items-lining">
+
+                        <a href="service-product-photo-editing.html">
                         <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Product Photo Editing Icon.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-product-photo-editing.html"><h4>Product Photo Editing</h4></a>
+                                <p class="mega-menu-title">Product Photo Editing</p>
                                 <p>Powerful Capabilities Behind Effortless Product Photo Editing</p>
                             </div> 
                         </div>
-
+                        </a>
+                        
+                        <a href="service-image-generator.html">
                         <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Image Generator Icon.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-image-generator.html"><h4>Image Generator</h4></a>
+                                <p class="mega-menu-title">Image Generator</p>
                                 <p>Instantly Generate Stunning Images for Product Photos and Designs</p>
                             </div> 
                         </div>
-
+                        </a>
+                        
+                        <a href="service-customer-experiences.html">
                         <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Customer Experience Icon.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-customer-experiences.html"><h4>Customer Experience</h4></a>
+                                <p class="mega-menu-title">Customer Experience</p>
                                 <p>Cultivate Customer Loyalty</p>
                             </div> 
                         </div>
+                        </a>
 
-                        <div class="mega-menu-items">
+                        <a href="service-employee-experiences.html">
+                             <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Employee Experience.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-employee-experiences.html"><h4>Employee Experience</h4></a>
+                                <p class="mega-menu-title">Employee Experience</p>
                                 <p>Build Employee Engagement</p>
                             </div> 
                         </div>
+                        </a>
 
-                        <div class="mega-menu-items">
+                        <a href="service-ui-ux-design.html">
+                             <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/UI UX Design.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-ui-ux-design.html"><h4>UI UX Design</h4></a>
+                                <p class="mega-menu-title">UI UX Design</p>
                                 <p>Enhance Conversions and Build Loyalty with User-Centric UI UX Design </p>
                             </div> 
                         </div>
+                        </a>
 
-                        <div class="mega-menu-items">
+                        <a href="service-digital-transformation.html">
+                             <div class="mega-menu-items">
                             <div class="mega-menu-img">
                                 <img src="./img/Digital Transformation Icon.png" alt="">
                             </div>
                             <div class="mega-menu-text">
-                                <a href="service-digital-transformation.html"><h4>Digital Transformation</h4></a>
+                                <p class="mega-menu-title">Digital Transformation</p>
                                 <p>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
                             </div> 
                         </div>
+                        </a>
+            
                     </div>
 
                     <div class="mega-menu-article">
@@ -194,23 +218,25 @@
         </nav>
 
     </header>
-
+    
     <!-- Hero Section -->
 
     <div class="hero-section mb-5">
-        <div class="hero-section-title title-spacing">
+        <div class="hero-section-title title-spacing animate-to-bottom">
             <p class="sub-title mb-1">IMAGE GENERATOR</p>
-            <h1 class="mb-2">Instantly Generate Stunning Images for Product Photos and Design</h1>
+            <h1 class="mb-2">
+                <span class="gradient-font">Instantly Generate Stunning Images </span>
+                <span class="gradient-font">for Product Photos and Design</span></h1>
             <div class="btn mb-5"><a class="btn-label" href="">Begin Creating</a></div>
         </div>
-        <div class="center">
+        <div class="center animate-to-top">
             <img class="hero-img-mobile" src="./img/image-generator-page-main-photos.png" alt="">
         </div>
     </div>
 
     <!-- Styles section -->
 
-    <div class="center">
+    <div class="center section hidden-bottom">
         <p class="sub-title mb-1">STYLES</p>
         <h2>Explore Versatile Styles to Match <br>
             Your Creation</h2>
@@ -218,11 +244,11 @@
 
     <div class="mb-4"></div>
 
-    <div class="center toggle-img-pc">
+    <div class="center toggle-img-pc section hidden-bottom">
         <img src="./img/image-generator-page-styles-section.png" alt="">
     </div>
 
-    <div class="center toggle-img-mobile">
+    <div class="center toggle-img-mobile section hidden-bottom">
         <img src="./img/image-generator-picture-1-mobile.png" alt="">
     </div>
 
@@ -230,7 +256,7 @@
 
 <!-- AI Creatuvuty Section -->
 
-    <div class="center">
+    <div class="center section hidden-bottom">
         <p class="sub-title mb-1">AI CREATVITY</p>
         <h2>Breathtaking Gallery of <br>
             AI-Generated Visual Creations</h2>
@@ -238,11 +264,11 @@
 
     <div class="mb-4"></div>
 
-    <div class="center toggle-img-pc">
+    <div class="center toggle-img-pc section hidden-bottom">
         <img src="./img/image-generator-page-ai-gallery.png" alt="">
     </div>
 
-    <div class="center toggle-img-mobile">
+    <div class="center toggle-img-mobile section hidden-bottom">
         <img src="./img/image-generator-picture-2-mobile.png" alt="">
     </div>
 
@@ -250,7 +276,7 @@
 
     <!-- Served Section -->
 
-    <div class="center">
+    <div class="center section hidden-bottom">
         <h3>Served 40+ countries worldwide</h3>
         <div class="mb-3"></div>
         <img class="center toggle-img-pc" src="./img/product-photo-editing-country-flag.png" alt="">
@@ -261,7 +287,7 @@
 
     <!-- CTA Section -->
 
-    <div class="cta-box card center">
+    <div class="cta-box card center section hidden-bottom">
         <div class="mb-3"></div>
         <h3>Create your image that stand out!</h3>
         <div class="mb-1"></div>
@@ -273,19 +299,18 @@
 
     <div class="mb-6"></div>
 
-     <!-- Footer -->
-     <footer>
+    <!-- Footer -->
+
+    <footer>
 
         <div class="footer-lining mb-4">
             <div class="footer-contact">
                 <img class="footer-contact-logo" src="./img/Enamo Logo.png" alt="">
                 <h4 class="mb-1">Innovating AI and Digital Transformation</h4>
                 <div class="footer-icon-lining">
-                    <img src="./img/icon map.png" alt="">
                     <p>Yogyakarta, Indonesia</p>
                 </div>
                 <div class="footer-icon-lining mb-2">
-                    <img src="./img/icon email.png" alt="">
                     <p>pr@enamo.com</p>
                 </div>
     
@@ -324,6 +349,6 @@
         </div>
 
     </footer>
-    
+
 </body>
 </html>
